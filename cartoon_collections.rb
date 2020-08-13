@@ -14,8 +14,5 @@ def list_dwarves(array)
   %w(array).each_with_index { |item, index|
   array[index] = "#{index}. #{item}"
   }
-  array.each do |everyone|
-  puts "#{everyone}"
-end
 end
 end
