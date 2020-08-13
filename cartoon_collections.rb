@@ -13,7 +13,7 @@ def list_dwarves(array)
   # Print a numbered list of each element
   newArray = []
   array.each_with_index{|name,index|
-  newArray[index] = ""
+  newArray[index] = "#{index+1}. #{name}"
     
   }
 end
