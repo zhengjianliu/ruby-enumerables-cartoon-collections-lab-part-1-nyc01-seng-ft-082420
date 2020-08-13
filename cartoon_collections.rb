@@ -12,8 +12,8 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   hash = Hash.new
-  array.each_with_index{|everyone,index|
-  puts "#{everyone}!"
+  array.each_with_index |everyone,index|
+  puts "#{index}. #{everyone}!"
   }
 end
 end
