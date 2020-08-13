@@ -14,6 +14,8 @@ def list_dwarves(array)
   newArray = []
   array.each_with_index{|name,index|
   newArray[index] = "#{index+1}. #{name}"
-    
   }
+  newArray.each do |everyone|
+  puts "#{everyone}"
+end
 end
