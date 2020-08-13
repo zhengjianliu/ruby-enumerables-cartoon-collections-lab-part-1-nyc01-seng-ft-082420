@@ -14,6 +14,5 @@ def list_dwarves(array)
   hash = Hash.new
   array.each_with_index |everyone,index|
   puts "#{index}. #{everyone}!"
-  }
 end
 end
